@@ -211,3 +211,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 include vendor/realme/sm6375-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
